@@ -133,10 +133,12 @@ article	{
 }
 
 /*Style links*/
+/*Style links*/
 a:link {color:blue; font-weight:bold; text-decoration:none;} /*Sets default color of links to blue, bold, no decoration*/
-a:hover {color:orangered; font-size:1.125em; font-style:italic; text-decoration:none;}   /* When link is hovered over, sets color to orangred, 
-																							font size 1.125em, italic, no decoration */
-a:active {text-decoration:underline;}  /* selected link */
+a:hover {color:blue; text-decoration:underline;}   /* When link is hovered over, sets color to blue w/underline */
+a:visited {color:purple; text-decoration:none;} /* When link is visited, sets color to purple */
+
+
 
 /*Styles each employment position section*/
 .position	{
