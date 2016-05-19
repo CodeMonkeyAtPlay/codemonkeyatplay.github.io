@@ -131,7 +131,19 @@ img	{
 	padding:10px;
 }
 
+.applications	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+}
 
+.expertise	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+}
 
 /*Styles left side column of skills*/
 .skillsLeft 	{ 	
