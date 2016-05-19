@@ -1,0 +1,163 @@
+/*Sets default margin and padding to 0px*/
+*	{
+	margin:0px;
+	padding:0px;
+}
+
+/* Ensures all elements are displayed as block elements*/
+header, section, footer, article	{
+	display:block;
+}
+
+/*Styles h1 tags*/
+h1	{
+	font-size:16px;
+}
+
+h2{
+	font-size:14px;
+	color:black;
+	padding:0;
+}
+
+h3	{
+	font-size:12px;
+	font-family: Tahoma;
+	color:black;
+	padding:0;
+}
+
+/*Sets default style for body, unless an element's styling is stated otherwise*/
+body	{
+	text-align:center;
+	font-family: 'Playfair Display', serif;	padding:0;
+	font-size:14px;
+	background-image:url('graphics/desktop.jpg');/*Wooden desktop image*/
+}
+
+/*Styles Main container*/
+#bigWrapper	{
+	background-image:url('graphics/01-whitepaper.png');/*Resume paper image*/
+	opacity: 1.2;	
+	border:1px solid black;	
+	width:800px;	
+	margin: 10px auto;
+	text-align:left;
+}
+
+/*Styles topHeader which holds image, name, title, contact information*/
+#topHeader	{
+	margin-top:25px;
+	
+    margin-left:150px;
+    font-family: 'Playfair Display', serif;	padding:0;
+	font-size:14px;
+}
+
+#name	{
+		font-size:18px;
+		font-weight:bold;
+}
+
+#title	{
+		font-family: 'Poiret One', cursive;
+		font-size:14px;
+		font-weight:bold;
+}
+
+#phone	{
+			font-size:14px;
+}
+
+#email	{
+		font-size:14px;
+}
+
+#linkedin	{
+			font-size:14px;
+}
+
+/*Styles image*/
+img	{
+	margin-top:30px;
+	margin-left:30px;
+	padding:5px;
+	border: thin black solid;
+}
+
+/*Styles main section*/
+#mainSection	{
+	width:90%;
+	margin:20px; 
+}
+
+/*Styles articles*/
+article	{
+	width: 100%;
+	margin-bottom:5px;
+	padding:10px;
+}
+
+/*Styles Summary line items
+#summaryUL	{
+	width:700px;
+	margin:auto;
+}*/
+
+.UL	{
+	
+	width:700px;
+	margin:auto;
+}
+
+.ulSubheading	{
+	text-decoration:underline;
+}
+/*Styes summary section*/
+#summary	{	
+	font-size:16px;
+	font-weight:bold;	
+}
+
+/*Styles right side column of skills section; floats to the right of the left skills column*/
+.skillsRight 	{
+	width:400px;
+	margin:auto;	
+	float:right; 	
+}
+
+/*Styles left side column of skills*/
+.skillsLeft 	{ 	
+	width:400px;
+	margin:auto;
+}
+
+/*Style links*/
+a:link {color:blue; font-weight:bold; text-decoration:none;} /*Sets default color of links to blue, bold, no decoration*/
+a:hover {color:orangered; font-size:1.125em; font-style:italic; text-decoration:none;}   /* When link is hovered over, sets color to orangred, 
+																							font size 1.125em, italic, no decoration */
+a:active {text-decoration:underline;}  /* selected link */
+
+/*Styles each employment position section*/
+.position	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+}
+
+/*Styles the footer*/
+#theFooter	{
+	clear:both; /*Clears float*/
+	font-size:20px;
+	font-weight:bold;
+	width: 90%;
+	text-align:center;
+	margin-bottom:10px;
+	padding:20px;	
+}
+
+
+
+
+
