@@ -3,6 +3,9 @@
 	margin:0px;
 	padding:0px;
 }
+.body	{
+	font-family:Tahoma;
+}
 
 /* Ensures all elements are displayed as block elements*/
 header, section, footer, article	{
@@ -11,22 +14,29 @@ header, section, footer, article	{
 
 /*Styles h1 tags*/
 h1	{
-	font-size:16px;
+	font-size:18px;
 }
 
 h2{
-	font-size:14px;
+	font-size:16px;
 	color:black;
 	padding:0;
 }
 
 h3	{
-	font-size:12px;
+	font-size:14px;
 	font-family: Tahoma;
 	color:black;
 	padding:0;
 }
 
+.ul	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+
+}
 /*Sets default style for body, unless an element's styling is stated otherwise*/
 body	{
 	text-align:center;
@@ -55,13 +65,12 @@ body	{
 }
 
 #name	{
-		font-size:18px;
+		font-size:20px;
 		font-weight:bold;
 }
 
 #title	{
-		font-family: 'Poiret One', cursive;
-		font-size:14px;
+		font-size:16px;
 		font-weight:bold;
 }
 
@@ -91,54 +100,56 @@ img	{
 	margin:20px; 
 }
 
-/*Styles articles*/
-article	{
-	width: 100%;
-	margin-bottom:5px;
-	padding:10px;
-}
-
-/*Styles Summary line items
-#summaryUL	{
-	width:700px;
-	margin:auto;
-}*/
-
 .UL	{
 	
 	width:700px;
-	margin:auto;
+	margin:100px;;
 }
 
 .ulSubheading	{
 	text-decoration:underline;
 }
 /*Styes summary section*/
-#summary	{	
-	font-size:16px;
-	font-weight:bold;	
+.summary	{	
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;	
 }
 
 /*Styles right side column of skills section; floats to the right of the left skills column*/
 .skillsRight 	{
 	width:400px;
-	margin:auto;	
+	margin:50px;;	
 	float:right; 	
 }
+
+.accomplishments	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+}
+
+
 
 /*Styles left side column of skills*/
 .skillsLeft 	{ 	
 	width:400px;
-	margin:auto;
+	margin:50px;
 }
 
-/*Style links*/
+.education	{
+	width: 100%;
+	display:inline-block;
+	margin-left:1em;
+	padding:10px;
+}
+
 /*Style links*/
 a:link {color:blue; font-weight:bold; text-decoration:none;} /*Sets default color of links to blue, bold, no decoration*/
 a:hover {color:blue; text-decoration:underline;}   /* When link is hovered over, sets color to blue w/underline */
 a:visited {color:purple; text-decoration:none;} /* When link is visited, sets color to purple */
-
-
 
 /*Styles each employment position section*/
 .position	{
@@ -149,17 +160,12 @@ a:visited {color:purple; text-decoration:none;} /* When link is visited, sets co
 }
 
 /*Styles the footer*/
-#theFooter	{
+#TheFooter	{
 	clear:both; /*Clears float*/
-	font-size:20px;
-	font-weight:bold;
+	font-size:26px;
+	font-weight:bold;	
 	width: 90%;
 	text-align:center;
 	margin-bottom:10px;
 	padding:20px;	
 }
-
-
-
-
-
