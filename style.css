@@ -187,8 +187,9 @@ img	{
 /*Styles the footer*/
 #TheFooter	{
 	clear:both; /*Clears float*/
-	font-size:26px;
+	font-size:14px;
 	font-weight:bold;
+	color:white;
 	text-align:center;
 	width: 90%;
 	text-align:center;
