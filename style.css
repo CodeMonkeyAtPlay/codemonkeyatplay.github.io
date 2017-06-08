@@ -1,4 +1,4 @@
-/*Sets default margin and padding to 0px*/
+﻿/*Sets default margin and padding to 0px*/
 *	{
 	margin:0px;
 	padding:0px;
@@ -9,7 +9,7 @@ body	{
 	text-align:center;
 	font-family: 'Playfair Display', serif;	padding:0;
 	font-size:14px;
-	background-image:url('desktop.jpg');/*Wooden desktop image*/
+	background-image:url('desktop.jpg')/*Wooden desktop image*/
 }
 
 /*Style Main container*/
